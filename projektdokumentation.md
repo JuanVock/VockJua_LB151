@@ -1,6 +1,6 @@
 # Projekt-Dokumentation
 
-✍️ Ihr Nachname
+Vock
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -14,16 +14,16 @@
 
 # 0 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Bei diesem Projekt geht es um einen Glücksradspiel auf einer Website dargestellt.
 
 # 1 Analyse
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): ...
+* Tier 1 (Presentation): Glücksrad
 * Tier 2 (Webserver):
 * Tier 3 (Application Server):
-* Tier 4 (Dataserver):
+* Tier 4 (Dataserver): 
 
 # 2 Technologie
 
