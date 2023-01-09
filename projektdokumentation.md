@@ -14,7 +14,7 @@ Vock
 
 # 0 Ihr Projekt
 
-Bei diesem Projekt geht es um einen Glücksradspiel auf einer Website dargestellt.
+Bei diesem Projekt geht es um einen Glücksradspiel, welches auf einer Website dargestellt.
 
 # 1 Analyse
 
@@ -28,6 +28,7 @@ Bei diesem Projekt geht es um einen Glücksradspiel auf einer Website dargestell
 # 2 Technologie
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
+Ich werde React für dieses Projekt gebrauchen.
 
 # 3 Datenbank
 
