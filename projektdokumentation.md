@@ -28,7 +28,7 @@ Bei diesem Projekt geht es um einen Glücksradspiel, welches auf einer Website d
 # 2 Technologie
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
-Ich werde React für dieses Projekt gebrauchen.
+Dieses Projekt wird mit Java, JSF und einer realtionalen Datenbank wie MySQL oder OracleDB verwendet.
 
 # 3 Datenbank
 
