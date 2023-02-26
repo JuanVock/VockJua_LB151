@@ -4,7 +4,7 @@ Vock
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|       | 14.01.23| Primeface anwenbar gemacht                                   |
 |       | 0.0.2   |                                                              |
 |       | 0.0.3   |                                                              |
 |       | 0.0.4   |                                                              |
@@ -20,19 +20,28 @@ Bei diesem Projekt geht es um einen Glücksradspiel, welches auf einer Website d
 
 ✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
 
-* Tier 1 (Presentation): Glücksrad
-* Tier 2 (Webserver):
-* Tier 3 (Application Server):
-* Tier 4 (Dataserver): 
+* Tier 1 (Presentation):-  Anzeige der Kategorien mit den Wörte inkl. Bearbeitung-, Lösche- und Hinzufügenfunktion.
+                        - Glücksradspiel
+* Tier 2 (Webserver): Prüfung aller Eingabefunktionen wie Kategorien, Wörter und Vokalen
+* Tier 3 (Application Server):Glücksspiel berechnen
+* Tier 4 (Dataserver): Kategorien, Wörter, Benutzerdateien mit Heighscore speichern
 
 # 2 Technologie
 
 ✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
-Dieses Projekt wird mit Java, JSF und einer realtionalen Datenbank wie MySQL oder OracleDB verwendet.
+Dieses Projekt wird mit Java, JSF mit Primeface und mit der realtionalen Datenbank MySql verwendet.Es 
+* Tier 1 (Presentation):-  XHTML, CSS, Primeface
+* Tier 2 (Webserver): jbbc
+* Tier 3 (Application Server):jdbc
+* Tier 4 (Dataserver): mySQL
 
 # 3 Datenbank
 
 ✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
+Es wird im Java in Netbeans mit JDBC gesteuert.
+Es gitb eine Tabelle Player mit den Informationen ID, username, Zeitpunkt des Spieles, Geldbetrag, Anzahl Spielrunden
+Es gibt eine Tabelle Kategorie mit der ID, kategoryName, die mit der Tabelle Word mit der ID und wordName verbunden sind.
+
 
 # 4.1 User Stories
 
