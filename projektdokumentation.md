@@ -53,8 +53,10 @@ Es gibt eine Tabelle Kategorie mit der ID, kategoryName, die mit der Tabelle Wor
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |  Wichtig        |  Funktional    | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |  Wichtig        |  Funktional    | Als ein Administrator möchte ich mit meinen Anmeldedaten in die Administratorenbereich kommen, damit die Kategorien und die Wörter oder Phrasen bearbeiten kann|
+| 2  |      Wichtig           | Funktional     | Als User möchte ich meinen Benutzername eingeben können, damit im Heighscore mein richtiger Benutzername steht  |
+| 3  |      Wichtig           | Funktional     | Als User möchte ich meinen Benutzername eingeben können, damit im Heighscore mein richtiger Benutzername steht  |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
