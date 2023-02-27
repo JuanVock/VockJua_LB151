@@ -12,6 +12,8 @@ Vock
 |25.02.23| 0.0.6  | LoginSeite                                                                    |
 |26.02.23| 1.0.0  | Adminseite                                                                    |
 |26.02.23| 1.0.1  | Benutzername Seite                                                            |
+|26.02.23| 1.0.2  | Angefangen Spiel Seite zu machen                                                           |
+
 
 
 # 0 Ihr Projekt
