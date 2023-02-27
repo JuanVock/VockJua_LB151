@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Facelet Title</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </h:head>
+    <h:body>
+        <h:form>
+            <h:outputLabel style="font-size: 50px;" value="Hallo #{player.username}"></h:outputLabel>
+            <h:panelGrid columns="2">
+                <h:outputLabel for="name" value="Geben Sie Ihren Namen ein, den Sie für den Heighscore benutzen wollen"/>
+                <h:outputText value="" escape="false" />
+                <h:inputText id="name" value="#{player.name}" required="true"/>
+                <h:outputText value="" escape="false" />
+                <h:message for="name" />
+                <h:outputText value="" escape="false" />
+                <h:commandButton value="OK" action="#{player.nextPage}" styleClass="mein-stil"/>
+            </h:panelGrid>
+        </h:form>
+    </h:body>
+</html>
+

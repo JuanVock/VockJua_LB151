@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+    <h:head>
+        <title>Administrator</title>
+        <link rel="stylesheet" type="text/css" href="admincss.css"/>
+    </h:head>
+    <h:body styleClass="body">
+
+        <h:form styleClass="form">
+            <h:outputLabel style="font-size: 50px;">Hello admin Juan</h:outputLabel>
+
+            <h:outputLabel for="newCategory" value="Neue Kategorie erstellen: " />
+            <h:inputText id="newCategory" value="#{word.newCategory[0]}" />
+            <h:commandButton value="Kategorie erstellen" action="#{word.addCategory(0)}" styleClass="mein-stil"/>
+
+            <h:outputLabel styleClass="outputLabel" value="Vorhandene Kategorien:" />
+            <ui:repeat value="#{word.categories}" var="categoryArray" varStatus="outerLoop">
+                <h:outputLabel value="#{categoryArray[0]}:" />
+
+                <ui:repeat value="#{categoryArray}" var="category" varStatus="innerLoop">
+                    <li>
+                        <h:inputText value="#{word.categories[outerLoop.index][innerLoop.index]}" rendered="#{innerLoop.index le categories[outerLoop.index].length - 1}" />
+                        <h:commandButton value="Löschen" action="#{word.deleteWord(outerLoop.index, innerLoop.index)}" rendered="#{innerLoop.index le categories[outerLoop.index].length - 1}" styleClass="mein-stil"/>
+                    </li>
+                </ui:repeat>
+
+                <li>
+                    <h:inputText value="#{word.newWord[outerLoop.index]}" />
+                    <h:commandButton value="Wort hinzufügen" action="#{word.addWord(outerLoop.index)}" styleClass="mein-stil"/>
+                </li>
+
+                <li>
+                    <h:inputText value="#{word.newCategory[outerLoop.index]}" />
+                    <h:commandButton value="Kategorie umbenennen" action="#{word.renameCategory(outerLoop.index)}" styleClass="mein-stil"/>
+                    <h:commandButton value="Kategorie löschen" action="#{word.deleteCategory(outerLoop.index)}" styleClass="mein-stil"/>
+                </li>
+            </ui:repeat>
+            <h:commandButton value="Zurück" action="#{word.back()}" styleClass="mein-stil"/>
+
+        </h:form>
+    </h:body>
+</html>
