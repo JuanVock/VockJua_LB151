@@ -71,14 +71,19 @@ Es gibt eine Tabelle Kategorie mit der ID, kategoryName, die mit der Tabelle Wor
 
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |   Website ist gestartet| Juanadmin bei der Eingabe, 123 bei Passwort. Dann Kategorien Hallo und Wort cool hinzufügen und löschen und bearteiten |Bei der Adminseite wird hallo und cool bearbeitbar sein         |
+| 2.2  |   Website ist gestartet           |   Button anmelden drücken      | Meldung "Der Wert darf nicht leer sein" erschein             |
+| 3.2  |   Website ist gestartet           |   hallo, hallo eingeben, button drücken, OK drücken      | Meldung "Der Wert darf nicht leer sein" erschein             |
+| 4.3  |   Website ist gestartet und man ist angemeldet und bei der Spiel Seite           |   Wort herausfinden      | Auf Hewighscore sichtbar            |
+| 8.1  |   Website ist gestartet           |   -      | nach einer Weile kann man nicht meh auf die Website zugreifen, wegen der Session            |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 # 5 Prototyp
 
 ✍️ Erstellen Sie Prototypen für das GUI (Admin-Interface und Quiz-Seite).
+![image](https://user-images.githubusercontent.com/111751286/221523981-0a2ba9e7-68e5-4217-94eb-e088bea1f573.png)
 
 # 6 Implementation
 
