@@ -2,15 +2,17 @@
 
 Vock
 
-| Datum  | Version| Zusammenfassung                                              |
-| ------ | -------| ------------------------------------------------------------ |
-|14.01.23|0.0.1   | Primeface anwenbar gemacht                                   |
-|        | 0.0.2   |                                                              |
-|        | 0.0.3   |                                                              |
-|        | 0.0.4   |                                                              |
-|        | 0.0.5   |                                                              |
-|        | 0.0.6   |                                                              |
-|        | 1.0.0   |                                                              |
+| Datum  | Version| Zusammenfassung                                                               |
+| ------ | -------| ------------------------------------------------------------------------------|
+|14.01.23|0.0.1   | Primeface anwenbar gemacht                                                    |
+|20.02.23|0.0.2   | Informieren über JDBC                                                         |
+|20.02.23|0.0.3   | Erstellen der Datenbank mit den Tabellen                                      |
+|20.02.23| 0.0.4  | Datenbank einbinden in Netbeans                                               |
+|24.02.23| 0.0.5  | Datenkbank versuchen mit der Website zu verbinden inkl. einer Insert funktion |
+|25.02.23| 0.0.6  | LoginSeite                                                                    |
+|26.02.23| 1.0.0  | Adminseite                                                                    |
+|26.02.23| 1.0.1  | Benutzername Seite                                                            |
+
 
 # 0 Ihr Projekt
 
@@ -51,7 +53,7 @@ Es gibt eine Tabelle Kategorie mit der ID, kategoryName, die mit der Tabelle Wor
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |  Wichtig        |  Funktional    | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
 | ...  |                 |      |                                    |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
