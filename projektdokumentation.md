@@ -54,8 +54,15 @@ Es gibt eine Tabelle Kategorie mit der ID, kategoryName, die mit der Tabelle Wor
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |  Wichtig        |  Funktional    | Als ein Administrator möchte ich mit meinen Anmeldedaten in die Administratorenbereich kommen, damit die Kategorien und die Wörter oder Phrasen bearbeiten kann|
-| 2  |      Wichtig           | Funktional     | Als User möchte ich meinen Benutzername eingeben können, damit im Heighscore mein richtiger Benutzername steht  |
-| 3  |      Wichtig           | Funktional     | Als User möchte ich meinen Benutzername eingeben können, damit im Heighscore mein richtiger Benutzername steht  |
+| 2  |      Wichtig           | Funktional     | Als Player möchte ich meinen Benutzername eingeben können, damit im Heighscore mein richtiger Benutzername steht  |
+| 3  |      Wichtig           | Funktional     | Als User möchte ich wenn ich eine Eingabe leer gelassen habe, dass es mich daraufhinweist, damit ich alles ausfülle |
+| 4  |      Wichtig           | Funktional     | Als User möchte ich wenn ich den Heigscore sehen, damit ich sehe wie gut ich bin |
+| 5  |      Wichtig           | Funktional     | Als User möchte ich einen Vokal auswählen können, damit ich das Wort schneller herausfinde |
+| 6  |      Wichtig           | Funktional     | Als User möchte ich wenn ich meine Herze sehen können, damit ich sehe, ob ich bald verliere |
+| 7  |      Wichtig           | Funktional     | Als User möchte ich wenn ich Konsonanten oder gerade das ganze Wort eingeben können, damit ich gewinnen kann |
+| 8  |      Wichtig           | Qualität     | Als User möchte ich wenn ich lange die Website nicht benutze, dass es mich automatisch abmeldet, damit ich mich sicher fühle|
+
+
 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
